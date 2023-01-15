@@ -1,0 +1,43 @@
+.buttons{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 75px;
+    color: white;
+}
+button{
+    background-color: red;
+    border: 2px;
+    width: 33.33%;
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    margin: 0;
+}
+.imagesBlock{
+    display: block;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.greenPart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: blue;
+    max-width: 90%;
+}
+.bluePart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: green;
+    max-width: 90%;
+}
+img{
+    max-height: 70%;
+    max-width: 100%;
+    visibility: visible;
+}    
